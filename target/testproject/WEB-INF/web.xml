@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>com.example.Test</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Test1</servlet-name>
+  	<display-name>Test1</display-name>
+  	<description></description>
+  	<servlet-class>com.example.Test</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Test</servlet-name>
   	<url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Test1</servlet-name>
+  	<url-pattern>/resources/com/example/Test1</url-pattern>
   </servlet-mapping>
 </web-app>
